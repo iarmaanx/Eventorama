@@ -72,23 +72,51 @@
     margin-right: 30px;
 }
 
-.hero ul svg {
-    margin-left: 40px;
+.hero ul a {
+    margin-left: 37px;
+    text-decoration: none;
+    color: white;
 }
 
 .hero ul li{
-    margin-left: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    margin-left: 38px;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 800px;
+    font-size: 15px;
 }
+
+/* Main */
+
+.main{
+    justify-self: center;
+}
+
+.main h2{
+    color: white;
+}
+
+
 
 
 /* Footer */
 
 .footer{
-    display: flex;
-    justify-content: center;
     color: white;
     position: absolute;
     bottom: 0;
 }
+
+.footer p{
+    color: rgb(255, 255, 255);
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.footer a{
+    color: rgb(18, 89, 126);
+    text-decoration: none;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 1000;
+}
+
