@@ -72,7 +72,7 @@
     margin-right: 30px;
 }
 
-.hero ul a {
+.github {
     margin-left: 37px;
     text-decoration: none;
     color: white;
@@ -80,14 +80,58 @@
 
 .hero ul li{
     margin-left: 38px;
-    font-family: "LXGW WenKai TC", cursive;
-    font-weight: 800px;
-    font-size: 15px;
 }
 
+.hero ul li a{
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+/* Sign Up Button */
+.button {
+    margin-left: 33px;
+    font-weight: 500;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+  }
+  
+  .button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .button:active {
+    -webkit-transform: scale(0.9) rotate(3deg);
+        -ms-transform: scale(0.9) rotate(3deg);
+            transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
 /* Main */
 
 .main{
+    align-self: center;
     justify-self: center;
 }
 
@@ -101,19 +145,22 @@
 /* Footer */
 
 .footer{
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: 0;
+    width: 100%;
+
 }
 
 .footer p{
-    color: rgb(255, 255, 255);
+    color: rgb(94, 94, 94);
     font-family: "LXGW WenKai TC", cursive;
-    font-weight: 700;
-    font-style: normal;
+    font-size: 12px;
 }
 
-.footer a{
+.name{
     color: rgb(18, 89, 126);
     text-decoration: none;
     font-family: "LXGW WenKai TC", cursive;
