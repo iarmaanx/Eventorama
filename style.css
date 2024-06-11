@@ -13,16 +13,11 @@
     font-style: normal;
 }
   
-.lxgw-wenkai-tc-regular {
-    font-family: "LXGW WenKai TC", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.lxgw-wenkai-tc-bold {
-    font-family: "LXGW WenKai TC", cursive;
-    font-weight: 700;
-    font-style: normal;
+.jost-light {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
   
 
@@ -83,7 +78,8 @@
 }
 
 .hero ul li a{
-    font-family: "LXGW WenKai TC", cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
@@ -139,6 +135,12 @@
     color: white;
 }
 
+/* Call to action Button */
+
+.cta-btn{
+    color: white;
+    background-color: transparent;
+}
 
 
 
