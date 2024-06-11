@@ -16,7 +16,7 @@
 .jost-light {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
 }
   
@@ -43,6 +43,14 @@
     }
 }
 
+/* Container Div */
+
+.contain{
+    display:flex;
+    flex-direction: column;
+}
+
+
 /*Nav Bar*/
 
 .hero {
@@ -67,24 +75,65 @@
     margin-right: 30px;
 }
 
-.github {
-    margin-left: 37px;
-    text-decoration: none;
-    color: white;
-}
+
 
 .hero ul li{
     margin-left: 38px;
 }
 
 .hero ul li a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
     text-decoration: none;
     color: white;
 }
+
+/* Github Button */
+.github {
+    margin-left: 37px;
+    text-decoration: none;
+    color: white;
+}
+
+.bgcolor {
+    margin-left: 33px;
+    font-weight: 500;
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: transparent;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+  }
+  
+  .bgcolor::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(81, 11, 77) 17.8%, rgba(2,245,255,1) 100.2% );
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .bgcolor:active {
+    -webkit-transform: scale(0.9) rotate(3deg);
+        -ms-transform: scale(0.9) rotate(3deg);
+            transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
 
 /* Sign Up Button */
 .button {
@@ -127,12 +176,22 @@
 /* Main */
 
 .main{
-    align-self: center;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
 }
 
 .main h2{
     color: white;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
 }
 
 /* Call to action Button */
