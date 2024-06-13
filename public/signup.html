@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventorama</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="slogan"> <h2 class="jost-light">Find your First Event </h2></div>
+            <div class="signbox">
+<!-- This is Google Sign in Button--> 
+                <script src="https://accounts.google.com/gsi/client" async></script>
+                <div id="g_id_onload"
+                    data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                    data-login_uri="https://your.domain/your_login_endpoint"
+                    data-auto_prompt="false">
+                </div>
+                <div class="g_id_signin"
+                    data-type="standard"
+                    data-size="large"
+                    data-theme="outline"
+                    data-text="sign_in_with"
+                    data-shape="rectangular"
+                    data-logo_alignment="left">
+                </div>
+<!-- Google button ends here-->      
+                <button type="button" class="btn btn-primary btn-lg space">Sign in using Email</button>
+            </div> 
+        </div> 
+
+    </div> 
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Fonts*/
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.jost-light {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.left{
+    width: 50%;
+    height: 100vh;
+    background-image: url('/assets/1583747992phpzaxKKK.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.signbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(30, 27, 24);
+    border: 1.2px solid black;
+    border-radius: 7px;
+}
+
+.space{
+    margin-top: 6vh;
+    padding: 1.5vh;
+    padding-left: 3.5vh;
+    padding-right: 3.5vh;
+}
+
+.slogan{
+    padding-bottom: 7vh;
+}
