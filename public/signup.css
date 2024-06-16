@@ -8,7 +8,7 @@
 
 .satisfy-regular {
     font-family: "Satisfy", cursive;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
 }
   
@@ -25,7 +25,7 @@
 }
 
 .left{
-    width: 50%;
+    width: 55%;
     height: 100vh;
     background-image: url('/assets/1583747992phpzaxKKK.jpg');
     background-size: cover;
@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
 
 .signbox{
@@ -46,8 +46,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 50%;
+    height: 43vh;
+    width: 53%;
     background-color: rgb(30, 27, 24);
     border: 1.2px solid black;
     border-radius: 7px;
@@ -62,4 +62,18 @@
 
 .slogan{
     padding-bottom: 7vh;
+}
+
+.slogan h2{
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.right h1{
+    color: rgb(146, 88, 59);
+    margin-bottom: 0;
+    font-size: 3.2rem;
 }
