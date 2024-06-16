@@ -75,5 +75,12 @@
 .right h1{
     color: rgb(146, 88, 59);
     margin-bottom: 0;
-    font-size: 3.2rem;
-}
+    font-size: 3.3rem;
+    background-color: #2f8d46;
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20231218222854/1.png");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    
