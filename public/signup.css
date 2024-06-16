@@ -27,7 +27,7 @@
 .left{
     width: 55%;
     height: 100vh;
-    background-image: url('/assets/1583747992phpzaxKKK.jpg');
+    background-image: url("/assets/signin.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -73,14 +73,9 @@
 }
 
 .right h1{
-    color: rgb(146, 88, 59);
+    color: rgb(24, 10, 3);
     margin-bottom: 0;
     font-size: 3.3rem;
-    background-color: #2f8d46;
-    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20231218222854/1.png");
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    }
+}
     
     
