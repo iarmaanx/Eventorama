@@ -51,6 +51,7 @@
     background-color: rgb(30, 27, 24);
     border: 1.2px solid black;
     border-radius: 7px;
+    color: white;
 }
 
 .space{
@@ -78,4 +79,18 @@
     font-size: 3.3rem;
 }
     
+/* JS formed Form tag*/
+
+#sign-in-form{
+    /* Google Fonts*/
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  
+  align-items: center;
     
+}

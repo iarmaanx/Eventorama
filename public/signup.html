@@ -19,6 +19,7 @@
             <div class="slogan"> <h2 class="satisfy-regular">Find your first event </h2></div>
             <div class="signbox">
 <!-- This is Google Sign in Button--> 
+                <div class="gbtn">
                 <script src="https://accounts.google.com/gsi/client" async></script>
                 <div id="g_id_onload"
                     data-client_id="YOUR_GOOGLE_CLIENT_ID"
@@ -33,11 +34,13 @@
                     data-shape="rectangular"
                     data-logo_alignment="left">
                 </div>
+            </div>
 <!-- Google button ends here-->      
-                <button type="button" class="btn btn-primary btn-lg space">Sign in using Email</button>
+                <button type="button" class="btn btn-primary btn-lg space" id="btn">Sign in using Email</button>
             </div> 
         </div> 
 
     </div> 
+    <script src="signup.js"></script>
 </body>
 </html>
