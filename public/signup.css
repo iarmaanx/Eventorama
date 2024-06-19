@@ -88,9 +88,27 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-
   display: flex;
-  
-  align-items: center;
-    
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+#sign-in-form input{
+    padding: 0.3rem;
+    margin: 0.3rem;
+    outline: none;
+}
+
+/* JS formed Sign In button*/
+
+.signInBtnBox{
+    margin: 2vh;
+ 
+    display:flex ;
+    justify-content:space-around;
+}
+
+.signBtn{
+    padding: 0.4rem;
+}
+
