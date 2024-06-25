@@ -14,25 +14,48 @@ btn.addEventListener("click", () =>{
             <label for="Name">Name:</label>
             <input type="text" name="name" id="name" placeholder="John" required></input> <br>
             <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="abc@gmail.com" required> </input><br>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com" required autocomplete="username"> </input><br>
             <label for="password">Password:</label>
-            <input type="password" name="password" required> </input><br>
+            <input type="password" name="password"  id="password" required autocomplete="current-password"> </input><br>
         </div>
             <div class="signInBtnBox">
-               <button class="signBtn" type="submit">Sign In</button>
+               <button class="signBtn" type="submit" id="signinBtn">Sign In</button>
                <button type="reset" class="signBtn">Reset</button>
             </div>
         </form>
     `;
 
     signBox.innerHTML = form;
-    let signform = document.querySelector("form");
     
-
-    signform.addEventListener("submit", ()=>{
-       let name = document.querySelector("name").value;
-        console.log(name);
-    })
 })
 
+
+var signupButton = document.querySelector('#signinBtn');
+    var signupForm = document.querySelector('form');
+
+document.addEventListener('DOMContentLoaded', function() {
+    
+
+    if (signupButton) {
+        signupButton.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent form submission for demo purposes
+            
+            if (signupForm) {
+                var email = signupForm.querySelector('#email');
+                var password = signupForm.querySelector('#password');
+                
+                if (email && password) {
+                    console.log('Email:', email.value);
+                    console.log('Password:', password.value);
+                } else {
+                    console.error('Email or password element not found');
+                }
+            } else {
+                console.error('Signup form element not found');
+            }
+        });
+    } else {
+        console.error('Signup button element not found');
+    }
+});
 
