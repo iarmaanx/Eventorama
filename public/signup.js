@@ -9,7 +9,7 @@ btn.addEventListener("click", () =>{
     signBox.style.backgroundColor = "#222419";
 
     let form = `
-        <form id="sign-in-form"> 
+        <form id="sign-in-form" action="/public/home.html" method="get"> 
         <div>
             <label for="Name">Name:</label>
             <input type="text" name="name" id="name" placeholder="John" required></input> <br>
@@ -19,8 +19,8 @@ btn.addEventListener("click", () =>{
             <input type="password" name="password"  id="password" required autocomplete="current-password"> </input><br>
         </div>
             <div class="signInBtnBox">
+            <button type="reset" class="signBtn">Reset</button>
                <button class="signBtn" type="submit" id="signinBtn">Sign In</button>
-               <button type="reset" class="signBtn">Reset</button>
             </div>
         </form>
     `;

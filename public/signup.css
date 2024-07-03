@@ -41,6 +41,11 @@
     width: 45%;
 }
 
+.right h1 a{
+    color: black;
+    text-decoration: none;
+}
+
 .signbox{
     display: flex;
     flex-direction: column;

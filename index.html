@@ -19,9 +19,9 @@
 <!-- This contain all other divs -->
     <div class="contain">
     <div class="hero">
-        <h2 class="satisfy-regular">Eventorama</h2>
+        <h2 class="satisfy-regular"><a href="/public/home.html">Eventorama</a></h2>
         <ul>
-            <li><a href="/public/signup.html">Home</a></li>
+            <li><a href="/public/home.html">Home</a></li>
             <li><a href="/public/signup.html">Discover Events</a></li>
             <li><a href="/public/signup.html">Post Event</a></li>
             
@@ -32,8 +32,8 @@
     </div>
 
     <div class="main">
-        <h2>"Discover, Share, and Experience Amazing Events"</h2>
-        <button class="button" onclick="window.open('https://www.w3schools.com')">Explore</button>
+        <h2>"Discover and Experience Amazing Events"</h2>
+        <button class="button" onclick="openNewPage()">Explore</button>
     </div>
 <!--
     <div class="footer" >
@@ -42,5 +42,10 @@
     </div>
 -->
 </div>
+<script>
+    function openNewPage() {
+        window.location.href = "/public/home.html" ;
+    }
+</script>
 </body>
 </html>
