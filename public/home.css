@@ -148,3 +148,16 @@
     background-color: white;
   }
   
+
+  .wip {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .wip img {
+    margin-top: 8%;
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
